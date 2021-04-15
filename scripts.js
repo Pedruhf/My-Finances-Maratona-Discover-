@@ -109,8 +109,8 @@ const Utils = {
     return signal + value
   },
   formatAmount(value) {
-    value = Number(value) * 100
-    return Math.round(value)
+    value = Number(value) * 100;
+    return Math.round(value);
   },
   formatDate(date) {
     const splittedDate = date.split("-")
